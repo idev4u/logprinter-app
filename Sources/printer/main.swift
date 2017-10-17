@@ -1,7 +1,9 @@
 import Kitura
 import Foundation
 
+// Disable Buffering to write directly to stdout
 setbuf(stdout, nil)
+// simplest log writer ever
 print("Gentleman start the engine ....")
 
 let endpoint = Router()
